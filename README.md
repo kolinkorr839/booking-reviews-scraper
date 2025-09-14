@@ -6,6 +6,15 @@
 A Python tool to scrape cusotmer reviews from Booking.com. Whether you're a data enthusiast or looking to analyze customer feedback, this tool makes it easy to gather reviews data.
 
 
+## Installation / usage
+
+$ cd booking-reviews-scraper/
+$ python3 -m venv venv
+$ . venv/bin/activate
+$ pip install -r requirements.txt
+$ python run.py 'el-viajero-2' 'co' --sort-by 'newest_first' --n-reviews 10
+$ ls output
+
 ## Features
 
 - Retrieve hotel reviews from booking.com
